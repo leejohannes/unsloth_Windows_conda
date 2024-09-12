@@ -48,7 +48,7 @@ https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
 @echo off
 python "%~dp0\ds" %*
 ```
-要保存未安装完的文件使用这个指令,如果你觉得这样太繁琐请跳到[#这里](### 当然你也可以直接)
+要保存未安装完的文件使用这个指令,如果你觉得这样太繁琐请跳到[#这里](#当然你也可以直接)
 ```bash
  pip install deepspeed --no-clean
 ```
