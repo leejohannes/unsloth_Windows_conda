@@ -23,3 +23,9 @@ pip install xformers
 ```bash
 pip install --no-deps trl peft accelerate bitsandbytes
 ```
+## 4.安装triton
+先去 https://hf-mirror.com/madbuda/triton-windows-builds 下载python3.11下编译出来的windows版本的whl包
+cd到下载目录并执行下面的指令安装
+```bash
+pip install triton-2.1.0-cp311-cp311-win_amd64.whl
+```
