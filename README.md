@@ -77,3 +77,7 @@ pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pyt
 ### 参考：
 https://github.com/unslothai/unsloth<p>
 https://github.com/microsoft/DeepSpeed<p>
+
+# 网速太慢不像安装可以直接下载网盘中的`conda` `env`
+# `env`中使用的包列表：
+(`conda_env_export.txt`)[]
