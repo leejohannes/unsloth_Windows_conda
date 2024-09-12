@@ -1,7 +1,9 @@
 https://github.com/unslothai/unsloth<p>
 https://hf-mirror.com/madbuda/triton-windows-builds<p>
 https://github.com/microsoft/DeepSpeed<p>
-
+https://www.anaconda.com/download/success<p>
+# 需要的文件列表
+[^1]. triton-2.1.0-cp311-cp311-win_amd64.whl
 # 安装步骤：
 请在`Anaconda Powershell Prompt`中执行<p>
 ## 1. 创建env
@@ -66,4 +68,6 @@ git clone https://github.com/microsoft/DeepSpeed.git
 ```bash
 pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
-### ***建议以管理员身份运行***
+### ***如果遇到权限问题建议以管理员身份运行Anaconda Powershell Prompt***
+
+
