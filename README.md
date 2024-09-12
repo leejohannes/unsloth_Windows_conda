@@ -73,11 +73,16 @@ git clone https://github.com/microsoft/DeepSpeed.git
 ```bash
 pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
+### 清理不用的pkgs
+```bash
+conda clean -p
+```
 ### ***如果遇到权限问题建议以管理员身份运行Anaconda Powershell Prompt***
 ### 参考：
 https://github.com/unslothai/unsloth<p>
 https://github.com/microsoft/DeepSpeed<p>
-
 # 网速太慢不像安装可以直接下载网盘中的`conda` `env`
+`%homepath%\.conda\environments.txt`中添加解压完的`unsloth`目录，要到能看到一堆`api-ms-win-core-XX.dll`的地址。
 # `env`中使用的包列表：
 [`conda_env_export.txt`](https://github.com/leejohannes/unsloth_Windows_conda/blob/main/conda_env_export.txt)
+因为yaml给出目前也会因为`triton`还有`deepspeed`的问题无法导入成功。。。
