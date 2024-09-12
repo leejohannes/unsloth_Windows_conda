@@ -3,7 +3,7 @@ https://hf-mirror.com/madbuda/triton-windows-builds<p>
 https://github.com/microsoft/DeepSpeed<p>
 https://www.anaconda.com/download/success<p>
 # 需要的文件列表
-[^1]. triton-2.1.0-cp311-cp311-win_amd64.whl
+[1]. triton-2.1.0-cp311-cp311-win_amd64.whl
 # 安装步骤：
 请在`Anaconda Powershell Prompt`中执行<p>
 ## 1. 创建env
