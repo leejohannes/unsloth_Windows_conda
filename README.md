@@ -60,7 +60,7 @@ python "%~dp0\ds" %*
 ```bash
  pip install deepspeed --no-clean
 ```
-`cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有'setup.py'
+`cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有`setup.py`
 ### 当然你也可以直接
 ```bash
 git clone https://github.com/microsoft/DeepSpeed.git
