@@ -1,7 +1,3 @@
-
-
-
-
 # 需要的文件列表
 1. `anaconda`安装包：<p>
    https://www.anaconda.com/download/success<p>
@@ -20,6 +16,9 @@ conda create -p 'unsloth目录' `
      pytorch cudatoolkit -c pytorch -c nvidia `
      -y
 conda activate 'unsloth目录'
+```
+```diff
+! 请将`unsloth目录`换成您电脑中的实际地址
 ```
 ## 2. 安装 xformers 
 ```bash
