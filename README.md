@@ -39,7 +39,7 @@ https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&targ
 $Env:DS_BUILD_OPS = 0 `
 pip install deepspeed
 ```
-`PowerShell`中的直接给变量命名还是会报错，因为setup.py中写的是从环境变量中获取<p>
+`PowerShell`中的直接给变量命名还是会报错，因为`setup.py`中写的是从环境变量中获取<p>
 除此之外还会有个错误就是0.15.1直接从pip上下来编译的包中缺少bat文件<p>
 去这里下载：<p>
 https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
@@ -47,7 +47,10 @@ https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
 ```bash
  pip install deepspeed --no-clean
 ```
-
+`cd`到temp中pip-XXX的目录
+```bash
+ python .\setup.py install
+```
 ### 补齐torch上的其他功能：
 ```bash
 pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
