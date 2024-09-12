@@ -3,10 +3,12 @@
 
 
 # 需要的文件列表
-1. anaconda安装包：<p>
+1. `anaconda`安装包：<p>
    https://www.anaconda.com/download/success<p>
-2. triton windows包：<p>
+2. `triton` windows包：<p>
    https://hf-mirror.com/madbuda/triton-windows-builds<p>
+3. `cuda-12.1` 安装包：<p>
+   https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
 # 安装步骤：
 请在`Anaconda Powershell Prompt`中执行<p>
 ## 1. 创建env
