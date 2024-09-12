@@ -79,6 +79,8 @@ conda clean -p
 https://github.com/unslothai/unsloth<p>
 https://github.com/microsoft/DeepSpeed<p>
 # 网速太慢不像安装可以直接下载网盘中的`conda` `env`
+`unsloth2024.8.zip` <p>
+https://pan.baidu.com/s/1Zxr7ZQHZplVwVJjf2xF29g?pwd=8888 <p>
 `%homepath%\.conda\environments.txt`中添加解压完的`unsloth`目录，要到能看到一堆`api-ms-win-core-XX.dll`的地址。
 # `env`中使用的包列表：
 [`conda_env_export.txt`](https://github.com/leejohannes/unsloth_Windows_conda/blob/main/conda_env_export.txt)
