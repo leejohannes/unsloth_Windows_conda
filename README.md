@@ -17,9 +17,7 @@ conda create -p 'unsloth目录' `
      -y
 conda activate 'unsloth目录'
 ```
-```diff
-! 请将`unsloth目录`换成您电脑中的实际地址
-```
+$${\color{red}请将`unsloth目录`换成您电脑中的实际地址}$$ 
 ## 2. 安装 xformers 
 ```bash
 pip install xformers
