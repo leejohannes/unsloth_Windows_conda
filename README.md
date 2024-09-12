@@ -3,8 +3,9 @@ https://hf-mirror.com/madbuda/triton-windows-builds<p>
 https://github.com/microsoft/DeepSpeed<p>
 
 # 安装步骤：
-根据unsloth-2024.8的conda安装指令改写的powershell下的指令<p>
+请在`Anaconda Powershell Prompt`中执行<p>
 ## 1. 创建env
+根据unsloth-2024.8的conda安装指令改写的powershell下的指令<p>
 ```bash
 conda create -p 'unsloth目录' `
     python=3.11 `
@@ -65,3 +66,4 @@ git clone https://github.com/microsoft/DeepSpeed.git
 ```bash
 pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
+### ***建议以管理员身份运行***
