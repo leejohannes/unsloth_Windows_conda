@@ -48,15 +48,20 @@ https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
 @echo off
 python "%~dp0\ds" %*
 ```
-要保存未安装完的文件使用这个指令
+要保存未安装完的文件使用这个指令,如果你觉得这样太繁琐请跳到[#这里](### 当然你也可以直接)
 ```bash
  pip install deepspeed --no-clean
 ```
 `cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有'setup.py'
+### 当然你也可以直接
+```bash
+git clone https://github.com/microsoft/DeepSpeed.git
+```
+解压缩后，`cd`进入`DeepSpeed`目录，然后再
 ```bash
  python .\setup.py install
 ```
-### 补齐torch上的其他功能：
+### ***补齐torch上的其他功能：***
 ```bash
 pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
