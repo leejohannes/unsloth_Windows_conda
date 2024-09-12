@@ -29,3 +29,12 @@ cd到下载目录并执行下面的指令安装
 ```bash
 pip install triton-2.1.0-cp311-cp311-win_amd64.whl
 ```
+## 5. 安装deepspeed，如果没有显存担忧可以不安装
+```bash
+pip install deepspeed
+```
+
+### 补齐torch上的其他功能：
+```bash
+pip install torch==2.4.0 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
