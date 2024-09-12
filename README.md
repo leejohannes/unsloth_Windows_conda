@@ -11,4 +11,3 @@ conda create -p 'unsloth目录' `
      pytorch cudatoolkit -c pytorch -c nvidia `
      -y
 conda activate 'unsloth目录'
-'''
