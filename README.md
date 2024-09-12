@@ -52,7 +52,7 @@ python "%~dp0\ds" %*
 ```bash
  pip install deepspeed --no-clean
 ```
-`cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有setup.py
+`cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有'setup.py'
 ```bash
  python .\setup.py install
 ```
