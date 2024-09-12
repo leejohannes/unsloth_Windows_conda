@@ -80,4 +80,4 @@ https://github.com/microsoft/DeepSpeed<p>
 
 # 网速太慢不像安装可以直接下载网盘中的`conda` `env`
 # `env`中使用的包列表：
-(`conda_env_export.txt`)[]
+[`conda_env_export.txt`](https://github.com/leejohannes/unsloth_Windows_conda/blob/main/conda_env_export.txt)
