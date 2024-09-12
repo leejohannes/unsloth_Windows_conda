@@ -43,11 +43,16 @@ pip install deepspeed
 除此之外还会有个错误就是0.15.1直接从pip上下来编译的包中缺少bat文件<p>
 去这里下载：<p>
 https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
+如果没有了两个文件内容是一样的，文件名分别是`ds_report.bat`和`deepspeed.bat`
+```bash
+@echo off
+python "%~dp0\ds" %*
+```
 要保存未安装完的文件使用这个指令
 ```bash
  pip install deepspeed --no-clean
 ```
-`cd`到`temp`中`pip-XXX`的目录
+`cd`到`$env:temp`中`pip-XXX`的目录,直到看到目录中有setup.py
 ```bash
  python .\setup.py install
 ```
