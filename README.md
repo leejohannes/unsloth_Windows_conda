@@ -47,7 +47,7 @@ https://github.com/microsoft/DeepSpeed/tree/master/bin <p>
 ```bash
  pip install deepspeed --no-clean
 ```
-`cd`到temp中pip-XXX的目录
+`cd`到`temp`中`pip-XXX`的目录
 ```bash
  python .\setup.py install
 ```
