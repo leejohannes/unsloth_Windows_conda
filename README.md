@@ -1,10 +1,10 @@
 # 我的安装环境
-软件：
-      Windows：10.0.22000.3197 (Windows 11 企业版 21H2)
-      anacanda：24.7.1
-硬件：
-      CPU：Intel Core i7-11800H @ 2.30GHz
-      GPU：NVIDIA GeForce RTX3070 laptop
+软件：<p>
+      Windows：10.0.22000.3197 (Windows 11 企业版 21H2)<p>
+      anacanda：24.7.1<p>
+硬件：<p>
+      CPU：Intel Core i7-11800H @ 2.30GHz<p>
+      GPU：NVIDIA GeForce RTX3070 laptop<p>
 # 需要的文件列表
 1. `anaconda`安装包：<p>
    https://www.anaconda.com/download/success<p>
