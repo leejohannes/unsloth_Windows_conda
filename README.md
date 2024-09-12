@@ -30,6 +30,9 @@ cd到下载目录并执行下面的指令安装
 pip install triton-2.1.0-cp311-cp311-win_amd64.whl
 ```
 ## 5. 安装deepspeed，如果没有显存担忧可以不安装
+这一步需要cuda的驱动
+请下载12.1版本的，地址如下：
+https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local 
 ```bash
 pip install deepspeed
 ```
