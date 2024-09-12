@@ -19,3 +19,7 @@ pip install xformers
 ```
 2024年9月12日目前还是安装的这个文件xformers-0.0.27.post2-cp311-cp311-win_amd64.whl<p>
 并且要求torch要降级成2.4.0<p>
+## 3. 安装其他包
+```bash
+pip install --no-deps trl peft accelerate bitsandbytes
+```
